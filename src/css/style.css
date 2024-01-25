@@ -33,11 +33,6 @@ h1 {
 	padding-bottom: 2rem;
 }
 
-.middle {
-	padding-top: 1rem;
-	font-weight: 300;
-}
-
 .text-primary {
 	display: inline-block;
 	vertical-align: middle;
@@ -74,6 +69,10 @@ h1 {
 	left: 0;
 	right: 0;
 	opacity: 80%;
+}
+.middle {
+	font-weight: 300;
+	padding-top: 1rem;
 }
 
 .footer {
