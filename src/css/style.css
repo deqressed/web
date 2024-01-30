@@ -12,9 +12,7 @@ body {
 	background-color: #DDD0C8;
 	margin: 0;
 	text-align: center;
-	font-family: "Brush Script MT", cursive, "sans-serif" ;
-	font-weight: normal;
-	font-style: normal;
+	font-family: "Brush Script MT", cursive;
 	color: #323232;
 }
 
@@ -29,9 +27,7 @@ body {
 
 h1 {
 	height: 2.5rem;
-	font-family: "Brush Script MT", cursive, "sans-serif";
-	font-weight: normal;
-	font-style: normal;
+	font-family: "Brush Script MT", cursive;
 	font-size: 2.9rem;
 }
 
@@ -238,10 +234,12 @@ h1 {
 	/* Adjust styles for screens with a maximum width of 320px */
 	body {
 		font-size: 0.9rem;
+		font-family: 'Courier New', Courier, monospace;
 	}
 
 	h1 {
 		font-size: 2rem;
+		font-family: 'Courier New', Courier, monospace;
 	}
 
 	.text-primary {
