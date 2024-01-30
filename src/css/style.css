@@ -17,6 +17,7 @@ body {
 }
 
 .temp {
+	font-weight: 600;
 	font-style: italic;
 }
 
@@ -243,7 +244,10 @@ h1 {
 		height: 0.1rem;
 		font-family: cookie;
 	}
-
+	.temp {
+		font-weight: 600;
+		font-style: italic;
+	}
 	.topleft {
 		font-family: cookie;
 	}
