@@ -13,6 +13,8 @@ body {
 	margin: 0;
 	text-align: center;
 	font-family: "Brush Script MT", cursive, "sans-serif" ;
+	font-weight: normal;
+	font-style: normal;
 	color: #323232;
 }
 
@@ -28,6 +30,8 @@ body {
 h1 {
 	height: 2.5rem;
 	font-family: "Brush Script MT", cursive, "sans-serif";
+	font-weight: normal;
+	font-style: normal;
 	font-size: 2.9rem;
 }
 
