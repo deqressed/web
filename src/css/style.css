@@ -1,37 +1,39 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lora:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/tisa-sans-pro');
 @keyframes move {
 	50% {
 		transform: translateY(-30px);
 	}
 }
-.animated-title {
-	animation: welcome-animation 3s ease-in-out infinite;
-  }
+
   
 body {
 	background-color: #DDD0C8;
 	margin: 0;
 	text-align: center;
-	font-family: "Brush Script MT", cursive;
+	font-family: 'Tisa Sans Pro', sans-serif;
 	color: #323232;
 }
-
+.profile {
+	font-family: 'Tisa Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1.1rem;
+}
 .temp {
 	font-weight: 600;
 	font-style: italic;
 }
 
 .semibold {
-	font-weight: 600;
+	font-weight: 700;
 	color: #000000;
 }
 
 h1 {
 	height: 1.5rem;
-	font-family: "Brush Script MT", cursive;
+	font-family: "Tisa Sans Pro", sans-serif;
 	font-size: 2.9rem;
 }
 
@@ -239,20 +241,20 @@ h1 {
 	body {
 		font-size: 1.2rem;
 		height: fit-content;
-		font-family: cookie;
+		font-family: 'Tisa Sans Pro', sans-serif;
 	}
 
 	h1 {
 		font-size: 2.1rem;
 		height: 0.1rem;
-		font-family: cookie;
+		font-family: 'Tisa Sans Pro', sans-serif;
 	}
 	.temp {
 		font-weight: 600;
 		font-style: italic;
 	}
 	.topleft {
-		font-family: cookie;
+		font-family: 'Tisa Sans Pro', sans-serif;
 	}
 
 	.text-primary {
