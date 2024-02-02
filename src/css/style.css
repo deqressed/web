@@ -245,8 +245,8 @@ h1 {
 	}
 
 	h1 {
-		font-size: 1.8rem;
-		height: 0.1rem;
+		font-size: 1.6rem;
+		height: 0.01rem;
 		font-family: 'Tisa Sans Pro', sans-serif;
 	}
 	.profile {
@@ -270,7 +270,9 @@ h1 {
 		height: fit-content;
 		font-size: 0.8rem;
 	}
-
+	.bottom {
+		height: 3rem;
+	}
 	.footer-social-link {
 		height: fit-content;
 
