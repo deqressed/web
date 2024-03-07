@@ -45,6 +45,7 @@ const MY_PROJECTS: Array<Project> = [
 ];
 
 export default MY_PROJECTS;
+// frerghyjrt
 
 // const MY_PROJECTS: Array<Project> = [
 // 	{
