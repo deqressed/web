@@ -1,0 +1,286 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lora:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/tisa-sans-pro');
+@keyframes move {
+	50% {
+		transform: translateY(-30px);
+	}
+}
+
+  
+body {
+	background-color: #DDD0C8;
+	margin: 0;
+	text-align: center;
+	font-family: 'Tisa Sans Pro', sans-serif;
+	color: #323232;
+}
+.profile {
+	font-family: 'Tisa Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1.1rem;
+}
+.temp {
+	font-weight: 600;
+	font-style: italic;
+}
+
+.semibold {
+	font-weight: 700;
+	color: #000000;
+}
+
+h1 {
+	height: 1.5rem;
+	font-family: "Tisa Sans Pro", sans-serif;
+	font-size: 2.9rem;
+}
+
+.top {
+	padding-top: 6rem;
+	padding-bottom: 2rem;
+}
+
+.middle {
+	padding-top: 1rem;
+	font-weight: 300;
+}
+
+.text-primary {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	color: #000000
+}
+
+.text-primary:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 51%;
+	right: 51%;
+	bottom: 0;
+	background: #000000;
+	height: 4px;
+	-webkit-transition-property: left, right;
+	transition-property: left, right;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.text-primary:hover:before,
+.text-primary:focus:before,
+.text-primary:active:before {
+	left: 0;
+	right: 0;
+	opacity: 80%;
+}
+
+.footer {
+	color: #000000;
+	font-size: 1.2rem;
+	opacity: 75%;
+	padding: 0.75rem;
+}
+
+.footer-social-link {
+	color: #181818;
+	padding: 8px;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus,
+.footer-social-link:active {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.bottom {
+	position: absolute;
+	bottom: 1rem;
+	width: 98.9%;
+}
+
+.aroze {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.aroze {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	text-decoration: none;
+	color: slateblue;
+}
+
+.aroze:hover,
+.aroze:focus,
+.aroze:active {
+	-webkit-transform: scale(1.2) rotate(12deg);
+	transform: scale(1.2) rotate(12deg);
+}
+
+.topleft {
+	position: absolute;
+	font-family: "Brush Script MT", cursive;
+	font-size: 16px;
+	height: 2rem;
+	top: 7px;
+	left: 16px;
+}
+
+/* Media Queries */
+
+/* @media (min-width: 425px) {
+	body {
+		font-size: 14rem;
+	  }
+	  h1 {
+		font-size: 5rem;
+	  }
+	  .text-primary {
+		font-size: 100rem;
+	  }
+	  .footer {
+		font-size: 100rem;
+	  }
+	  .footer-social-link {
+		padding: 4px;
+	  }
+	  .aroze {
+		font-size: 1.1rem;
+	  }
+} */
+
+@media only screen and (min-device-width: 768px) and(max-device-width: 1024px) {
+
+	/* Adjust styles for screens with a maximum width of 768px */
+	body {
+		font-size: 0.8rem;
+	}
+
+	h1 {
+		font-size: 1.8rem;
+	}
+
+	.text-primary {
+		font-size: 1.2rem;
+	}
+
+	.footer {
+		font-size: 0.9rem;
+	}
+
+	.footer-social-link {
+		padding: 4px;
+	}
+
+	.aroze {
+		font-size: 1.1rem;
+	}
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width:768px) {
+	body {
+		font-size: 0.6rem;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	.text-primary {
+		font-size: 1rem;
+	}
+
+	.footer {
+		font-size: 0.8rem;
+	}
+
+	.footer-social-link {
+		padding: 3px;
+	}
+
+	.aroze {
+		font-size: 0.9rem;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+	/* Adjust styles for screens with a maximum width of 320px */
+	body {
+		font-size: 1.2rem;
+		height: fit-content;
+		font-family: 'Tisa Sans Pro', sans-serif;
+	}
+
+	h1 {
+		font-size: 1.6rem;
+		height: 0.01rem;
+		font-family: 'Tisa Sans Pro', sans-serif;
+	}
+	.profile {
+		font-size: 0.9rem;
+	}
+	.temp {
+		font-weight: 600;
+		font-style: italic;
+	}
+	.topleft {
+		font-family: 'Tisa Sans Pro', sans-serif;
+	}
+
+	.text-primary {
+		height: fit-content;
+
+		font-size: 0.8rem;
+	}
+
+	.footer {
+		height: fit-content;
+		font-size: 0.8rem;
+	}
+	.bottom {
+		height: 2.4rem;
+	}
+	.footer-social-link {
+		height: fit-content;
+
+		padding: 0.6px;
+		font-size: 0.8rem;
+	}
+
+	.aroze {
+		font-size: 1.2rem;
+	}
+}
