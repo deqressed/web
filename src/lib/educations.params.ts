@@ -10,7 +10,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		name: '',
 		organization: 'N/A',
 		period: { from: new Date(2020, 0, 1), to: new Date(2023, 5, 1) },
-		shortDescription: 'High school located in New Jersey',
+		shortDescription: 'High school located in Saudi Arabia',
 		slug: 'dummy-education-item',
 		subjects: ['Python', 'JavaScript', 'Algebra', 'English']
 	},
