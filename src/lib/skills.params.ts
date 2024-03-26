@@ -67,14 +67,14 @@ s({
 		logo: Assets.TypeScript,
 		name: 'TypeScript'
 	}),
-	s({
-		slug: 'Nodejs',
-		color: 'green',
-		description:
-			'Node.js is a server-side JavaScript runtime that enables the execution of JavaScript code outside a web browser. It is particularly useful for building scalable and efficient network applications, making it a popular choice for back-end development.',
-		logo: Assets.NodeJs,
-		name: 'Node.js'
-	}),
+	// s({
+	// 	slug: 'Nodejs',
+	// 	color: 'green',
+	// 	description:
+	// 		'Node.js is a server-side JavaScript runtime that enables the execution of JavaScript code outside a web browser. It is particularly useful for building scalable and efficient network applications, making it a popular choice for back-end development.',
+	// 	logo: Assets.NodeJs,
+	// 	name: 'Node.js'
+	// }),
 	s({
 		slug: 'Bash',
 		color: 'white',
@@ -116,14 +116,14 @@ s({
 		logo: Assets.HTML,
 		name: 'HTML'
 	}),
-	s({
-		slug: 'Reactjs',
-		color: 'cyan',
-		description:
-			'React.js is a JavaScript library for building user interfaces, particularly for single-page applications where the content dynamically updates as users interact with it. Developed and maintained by Facebook, React makes it easy to create reusable UI components.',
-		logo: Assets.ReactJs,
-		name: 'React.js'
-	}),
+	// s({
+	// 	slug: 'Reactjs',
+	// 	color: 'cyan',
+	// 	description:
+	// 		'React.js is a JavaScript library for building user interfaces, particularly for single-page applications where the content dynamically updates as users interact with it. Developed and maintained by Facebook, React makes it easy to create reusable UI components.',
+	// 	logo: Assets.ReactJs,
+	// 	name: 'React.js'
+	// }),
 	s({
 		slug: 'Svelte',
 		color: 'purple',
