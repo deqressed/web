@@ -40,7 +40,7 @@ export const HOME: HomePageParams = {
 	title: 'Home',
 	name: 'deqressing',
 	description:
-		'Hey there! I\'m deqressing, a kind of full-stack developer in the making. I dipped my toes into coding when I was 14 and, surprise surprise, ended up loving it. Despite being 19, I\'m currently navigating the challenges of high school life. That hasn\'t stopped me from diving into pentesting and cyber stuff from 2020-2021. Can\'t get over the thrill of it, and I\'m picking up new programming languages along the way!',
+		'Hello, I\'m deqressing, an emerging full-stack developer. I first explored coding at the age of 14 and quickly developed a deep passion for it. I am navigating the complexities of university life, but this has not deterred me from pursuing interests in penetration testing and cybersecurity, which I have been engaged in from 2020-2021. I remain captivated by these fields and am continually learning new programming languages along the way.',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/deqressed' },
 		{
